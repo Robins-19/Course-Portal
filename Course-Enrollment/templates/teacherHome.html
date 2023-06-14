@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher Home</title>
+    <style>
+       button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+        div {
+        border-radius: 10px;
+        }
+    </style>
+</head>
+<body style="background:#8d8d8d;">
+<!--<li class="nav-item"><a href="/doubts" class="nav-link ">Solve Doubt</a></li>-->
+<!--style="display:flex; flex-wrap: wrap; background:#4c4a4a; padding:35px"-->
+<!--    {% for item in data1 %}-->
+<!--        <div style="background:#00f2ff; width:310px; height:100px; margin:0px 10px 15px 0px";>-->
+<!--            <tr >-->
+<!--                <td><h3 align="center">{{item}}</h3></td>-->
+<!--                <td><button style="margin-left:80px">Click to Show Details</button></td>-->
+<!--            </tr>-->
+<!--        </div>-->
+<!--    {% endfor %}-->
+
+<div style="background:white; width:60%; margin-left:20%; padding:20px; border-radius:10px">
+    <button href="/doubts"><a  style="color:white; text-decoration:none" href="/doubts" class="nav-link ">Solve Doubt</a></button>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col" style="margin-left:10px">Email</th>
+                <th scope="col" style="margin-left:10px">Course ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Quiz Score</th>
+
+            </tr>
+            </thead>
+            <tbody >
+
+            <!-- Construct the rest of courses here -->
+            {% for item in data1 %}
+      <tr >
+          <div style="background:red; margin-top:15px">
+          <td>{{ item.0}}</td>
+       <td>{{ item.1}}</td>
+          <td>{{ item.2 }}</td>
+       <td>{{ item.3}}</td>
+          <td>{{ item.4 }}</td>
+              </div>
+            {% endfor %}
+
+      </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

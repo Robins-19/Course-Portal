@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(12, 48, 209);
+            color:white;
+        }
+
+        h2{
+            color: rgb(252, 13, 13);
+        }
+
+        h3{
+            color: rgba(31, 21, 177, 0.836);
+        }
+
+        p {
+            border-left: 6px solid red;
+            background-color: rgb(20, 202, 235);
+            font-size: large;
+          }
+
+    </style>
+</head>
+<body style="background-color:powderblue;">
+    <h1>Object and Classes</h1>
+    <p>Java is an Object-Oriented Language.
+      <br>
+  <h2>Object</h2>
+<p>
+  Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors – wagging the tail, barking, eating. An object is an instance of a class.
+
+</p>
+<br>
+<h2>Class</h2>
+<p>
+  A class can be defined as a template/blueprint that describes the behavior/state that the object of its type support.
+</p>
+<br>
+
+
+
+  <h1>Objects in Java</h1>
+<p>
+
+
+  We consider the real-world, we can find many objects around us, cars, dogs, humans, etc. All these objects have a state and a behavior.
+  <br>
+  If we consider a dog, then its state is - name, breed, color, and the behavior is - barking, wagging the tail, running.
+  <br>
+  If you compare the software object with a real-world object, they have very similar characteristics.
+  <br>
+  Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.
+  <br>
+  So in software development, methods operate on the internal state of an object and the object-to-object communication is done via methods
+
+    </p>
+    <br>
+    <h1>Classes in Java</h1>
+
+    <p>
+      A class is a blueprint from which individual objects are created.
+  <br>
+  Following is a sample of a class
+<br><br>
+public class Dog {
+  <br>
+   String breed;
+   <br>
+   int age;
+   <br>
+   String color;
+<br>
+   void barking() {
+     <br>
+   }
+<br>
+   void hungry() {
+     <br>
+   }
+<br>
+   void sleeping() {
+     <br>
+   }
+   <br>
+}
+    </p>
+    <br>
+    <h1>Variable Types for Class</h1>
+    <p>A class can contain any of the following variable types.
+    </p>
+    <h3>
+Local variables
+    </h3>
+    <p>
+      Variables defined inside methods, constructors or blocks are called local variables. The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+
+    </p>
+    <h3>Instance variables</h3>
+<p> Instance variables are variables within a class but outside any method. These variables are initialized when the class is instantiated. Instance variables can be accessed from inside any method, constructor or blocks of that particular class.</p>
+<h3>Class variables</h3>
+<p>Class variables are variables declared within a class, outside any method, with the static keyword.</p>
+<br>
+<h1>Constructors</h1>
+<p>
+  When discussing about classes, one of the most important sub topic would be constructors. Every class has a constructor. If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
+<br>
+Each time a new object is created, at least one constructor will be invoked. The main rule of constructors is that they should have the same name as the class.
+
+</p>
+<br>
+<h1>Creating an Object</h1>
+<p>
+  As mentioned previously, a class provides the blueprints for objects. So basically, an object is created from a class. In Java, the new keyword is used to create new objects.
+<br>
+<br>
+There are three steps when creating an object from a class −
+<br>
+Declaration − A variable declaration with a variable name with an object type.
+<br>
+Instantiation − The 'new' keyword is used to create the object.
+<br>
+Initialization − The 'new' keyword is followed by a call to a constructor. This call initializes the new object.
+</p>
+
+</body>
+</html>

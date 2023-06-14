@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+        h1{
+            text-align: center;
+            background-color: rgb(12, 48, 209);
+            color:white;
+        }
+
+        h2{
+            color: rgb(252, 13, 13);
+        }
+
+        h3{
+            color: rgba(31, 21, 177, 0.836);
+        }
+
+        p {
+            border-left: 6px solid red;
+            background-color: rgb(20, 202, 235);
+            font-size: large;
+          }
+
+    </style>
+</head>
+
+<body style="background-color:powderblue;">
+  <h1>Loop Control</h1>
+  <p>
+    There may be a situation when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.
+    <br>
+    Programming languages provide various control structures that allow for more complicated execution paths.
+    <br>
+    A loop statement allows us to execute a statement or group of statements multiple times.
+  </p>
+  <br>
+  <h1>Types of loop</h1>
+  <p>Java programming language provides the following types of loop to handle looping requirements.</p>
+  <h3>1. while loop</h3>
+  <p>Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.
+    <br>
+    <b>Syntax</b>
+    <br>
+    while(Boolean_expression) {
+<br>// Statements
+<br>}
+  </p>
+  <h3>
+    2. for loop</h3>
+  <p>
+    Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable.
+    <br>
+    <b>Syntax</b>
+    <br>
+    for(initialization; Boolean_expression; update) {
+<br>// Statements
+<br>}
+  </p>
+  <h3>3. do...while loop</h3>
+  <p>Like a while statement, except that it tests the condition at the end of the loop body.
+    <br>
+    <b>Syntax</b> <br>
+    do {
+<br>// Statements
+<br>}while(Boolean_expression);
+
+  </p>
+
+
+  <br>
+  <h1>Loop Control Statements</h1>
+  <p>Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+<br>
+Java supports the following control statements.<br>
+<b>break statement: </b>Terminates the loop or switch statement and transfers execution to the statement immediately following the loop or switch.
+<br>
+<b>continue statement: </b>Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+
+
+
+
+  </p>
+
+
+<h1>Enhanced for loop in Java</h1>
+<p>
+  As of Java 5, the enhanced for loop was introduced. This is mainly used to traverse collection of elements including arrays.
+<br>
+Syntax
+<br>
+Following is the syntax of enhanced for loop −
+<br>
+for(declaration : expression) {
+<br>// Statements
+<br>}
+</p>
+</body>
+
+</html>

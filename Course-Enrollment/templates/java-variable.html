@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+        h1{
+            text-align: center;
+            background-color: rgb(12, 48, 209);
+            color:white;
+        }
+
+        h2{
+            color: rgb(252, 13, 13);
+        }
+
+        h3{
+            color: rgba(31, 21, 177, 0.836);
+        }
+
+        p {
+            border-left: 6px solid red;
+            background-color: rgb(20, 202, 235);
+            font-size: large;
+          }
+
+    </style>
+</head>
+
+<body style="background-color:powderblue;">
+  <h1>Variables</h1>
+  <p>
+
+    Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in the memory.
+    <br>
+    Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals, or characters in these
+    variables.
+    <br>
+    There are two data types available in Java −
+    <br>
+    Primitive Data Types
+    <br>
+    Reference/Object Data Types
+  </p>
+  <br>
+  <h2>Primitive Data Types</h2>
+  <p>There are eight primitive datatypes supported by Java. Primitive datatypes are predefined by the language and named by a keyword. Let us now look into the eight primitive data types in detail.</p>
+
+  <h3>1. byte</h3>
+  <p>
+    Byte data type is an 8-bit signed two's complement integer.Byte data type is used to save space in large arrays, mainly in place of integers, since a byte is four times smaller than an integer.
+    <br>
+    Example: byte a = 100, byte b = -50
+  </p>
+  <h3>
+    2.short</h3>
+  <p>
+    Short data type can also be used to save memory as byte data type. A short is 2 times smaller than an integer.
+    <br>
+    Example: short s = 10000, short r = -20000
+  </p>
+  <h3>3. intt</h3>
+  <p>Integer is generally used as the default data type for integral values unless there is a concern about memory.
+    <br>
+    Example: int a = 100000, int b = -200000
+
+  </p>
+  <h3>
+    4. long</h3>
+  <p>
+    Long data type is a 64-bit signed two's complement integer.This type is used when a wider range than int is needed.
+    <br>
+    Example: long a = 100000L, long b = -200000L
+  </p>
+  <h3>
+    5. float</h3>
+  <p>
+    Float is mainly used to save memory in large arrays of floating point numbers.
+    <br>
+    Example: float f1 = 234.5f
+  </p>
+  <h3>
+    6. double</h3>
+  <p>This data type is generally used as the default data type for decimal values, generally the default choice.
+    <br>
+    Example: double d1 = 123.4
+  </p>
+  <h3>
+    7. boolean</h3>
+  <p>boolean data type represents one bit of information.
+There are only two possible values: true and false
+    <br>
+    Example: boolean one = true
+  </p>
+  <h3>
+    8. char</h3>
+  <p>Char data type is used to store any characte
+    <br>
+Example: char letterA = 'A'
+  </p>
+  <br>
+  <h1>Reference Datatypes</h1>
+  <p>Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed. For example, Employee, Puppy, etc.
+<br>
+Class objects and various type of array variables come under reference datatype.
+<br>
+Default value of any reference variable is null.
+<br>
+A reference variable can be used to refer any object of the declared type or any compatible type.
+<br>
+Example: Animal animal = new Animal("giraffe");</p>
+
+
+  <h1>Variable Declaration</h1>
+  <p>You must declare all variables before they can be used. Following is the basic form of a variable declaration
+    <br><br>
+data type variable [ = value][, variable [ = value] ...] ;
+  </p>
+
+
+</body>
+
+</html>
